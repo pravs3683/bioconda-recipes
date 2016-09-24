@@ -1,17 +1,19 @@
 package:
   name: igblast
-  version: "1.4.0"
+  version: "1.6.0"
 source:
-  fn: ncbi-igblast-1.4.0-x64-linux.tar.gz  # [not osx]
-  fn: ncbi-igblast-1.4.0-universal-macosx.tar.gz  # [osx]
-  url: ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/ncbi-igblast-1.4.0-x64-linux.tar.gz  # [not osx]
-  url: ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/ncbi-igblast-1.4.0-universal-macosx.tar.gz  # [osx]
+  fn: ncbi-igblast-1.6.0-x64-linux.tar.gz  # [not osx]
+  fn: ncbi-igblast-1.6.0-universal-macosx.tar.gz  # [osx]
+  md5: 814ca4162bfc038361b1fce2c0462dd2  # [not osx]
+  md5: 49ab3114a75ed77e718d50d5429579f4  # [osx]
+  url: ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/1.6.0/ncbi-igblast-1.6.0-x64-linux.tar.gz  # [not osx]
+  url: ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/1.6.0/ncbi-igblast-1.6.0-universal-macosx.tar.gz  # [osx]
 about:
   home: http://www.ncbi.nlm.nih.gov/projects/igblast/
   license: Public Domain
   summary: A tool for analyzing immunoglobulin (IG) and T cell receptor (TR) sequences.
 build:
-  number: 6
+  number: 1
 requirements:
   run:
     - perl-threaded >=5.8.8
