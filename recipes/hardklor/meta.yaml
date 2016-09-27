@@ -15,6 +15,7 @@ requirements:
   build:
     - gcc   # [linux]
     - llvm  # [osx]
+    - wget
   run:
     - libgcc # [linux]
 
